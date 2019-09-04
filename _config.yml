@@ -1,6 +1,6 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+name: 'Freebie and Giveaways'
+description: 'Find the free stuff list of themes, templates, vectors, plugins, software, images, videos those are freebies and giveaways.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
@@ -17,7 +17,15 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  
+ 
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+    
 authors:
     sal:
       name:           Sal
