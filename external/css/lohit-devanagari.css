@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Lohit Devanagari';
+    src: url('../fonts/Lohit-Devanagari.eot');
+    src: local('Lohit Devanagari'), local('Lohit-Devanagari'),
+        url('../fonts/Lohit-Devanagari.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lohit-Devanagari.woff2') format('woff2'),
+        url('../fonts/Lohit-Devanagari.woff') format('woff'),
+        url('../fonts/Lohit-Devanagari.ttf') format('truetype'),
+        url('../fonts/Lohit-Devanagari.svg#Lohit-Devanagari') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
